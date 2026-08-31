@@ -1,0 +1,94 @@
+# ==========================================
+# Dependencies and Package Managers
+# ==========================================
+node_modules/
+/jspm_packages/
+/web_modules/
+.pnp
+.pnp.js
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+include/
+lib/
+
+# ==========================================
+# Build Outputs and Compiled Code
+# ==========================================
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.pyc
+*.pyo
+
+# ==========================================
+# Environment Variables and Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+certs/
+
+# ==========================================
+# Logs and Runtime Caches
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.parcel-cache
+.eslintcache
+.cache/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm / JetBrains
+.idea/
+idea
+idea/
+
+*.iws
+*.iml
+*.ipr
+
+# Text editors
+*.swp
+*~
+.project
+.settings/
